@@ -632,7 +632,6 @@ img {
 }
 .modal {
   width: 408px;
-  min-height: 576px;
   padding: 72px 24px 24px 24px;
   background-color: #fcfcfc;
   border-radius: 4px;
@@ -686,6 +685,8 @@ img {
 }
 .modal-form-input-wrapp {
   position: relative;
+}
+.modal-field {
   margin-bottom: 8px;
 }
 .modal-form-icon {
@@ -789,7 +790,7 @@ img {
 }
 /* .footer-box */
 .foot-input {
-  margin-left: 80px;
+  margin-left: auto;
 }
 .foot-form {
   display: flex;
@@ -813,7 +814,7 @@ img {
 }
 .foot-input-mail {
   margin-right: 24px;
-  color: var(--white-color);
+  color: #ffffff;
   height: 40px;
   width: 264px;
   border: 1px solid var(--color-white);
